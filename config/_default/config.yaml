@@ -1,13 +1,8 @@
-theme: osuny
+theme:
+  - nig-theme
+  - osuny-plugin-centered-header
 _merge: deep
 params:
-  summary:
-    position: hero
-  search:
-    active: true
   logo:
     header: '/assets/images/logo.png'
     footer: '/assets/images/logo-full.png'
-  home:
-    head:
-      title: site
