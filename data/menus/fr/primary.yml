@@ -9,12 +9,10 @@ items:
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Communs
-  target: "/"
-  kind: page
+  target: "/organisations/categories/nature/commun/"
+  kind: url
   new_tab: false
   children: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
