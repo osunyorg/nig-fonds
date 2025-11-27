@@ -13,4 +13,4 @@ params:
         summary:
           active: true
           source: "Summary" # "Summary" | "meta_description"
-          truncate: 125
+          truncate: false

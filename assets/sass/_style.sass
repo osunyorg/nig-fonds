@@ -7,6 +7,9 @@ header#document-header
             .dropdown-menu:not(.is-titled)
                 > .nav-level-2
                     @include grid(3)
+                    .with-summary
+                        p
+                            font-style: italic
 
 @include media-breakpoint-up(desktop)
     .hero
