@@ -1,7 +1,18 @@
 header#document-header
     .primary-menu
         padding-top: 0
-.hero
+@include media-breakpoint-up(desktop)
+    .hero
+        .content
+            flex-direction: column
+            align-items: center
+            .hero-text
+                width: 100%
+                text-align: center
+                margin-bottom: $spacing-5
+    .breadcrumb-nav
+        .breadcrumb
+            justify-content: center
     .content
         .hero-text
             .has-lead > p

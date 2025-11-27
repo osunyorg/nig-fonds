@@ -1,6 +1,7 @@
 theme:
   - nig-theme
   - osuny-plugin-centered-header
+  - osuny-plugin-centered-layout
 _merge: deep
 params:
   logo:
