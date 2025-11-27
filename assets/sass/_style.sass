@@ -1,6 +1,15 @@
 header#document-header
     .primary-menu
         padding-top: 0
+
+    @include media-breakpoint-up(desktop)
+        .menu
+            .dropdown-menu:not(.is-titled)
+                > .nav-level-2
+                    @include grid(3)
+                    > li
+                        text-align: center
+
 @include media-breakpoint-up(desktop)
     .hero
         .content
