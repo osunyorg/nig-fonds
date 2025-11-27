@@ -12,12 +12,61 @@ items:
   target: "/missions/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Sanctuariser
+    target: "/missions/sanctuariser/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/missions/sanctuariser"
+    file: content/fr/pages/missions/sanctuariser/_index.html
+  - title: Opérer
+    target: "/missions/operer/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/missions/operer"
+    file: content/fr/pages/missions/operer/_index.html
+  - title: Pérenniser
+    target: "/missions/perenniser/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/missions/perenniser"
+    file: content/fr/pages/missions/perenniser/_index.html
   path: "/pages/missions"
   file: content/fr/pages/missions/_index.html
+- title: Vous êtes...
+  target: "/vous-etes/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Commoneur·euse
+    target: "/vous-etes/commoneureuse/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/vous-etes/commoneureuse"
+    file: content/fr/pages/vous-etes/commoneureuse/_index.html
+  - title: Usagē·r·e
+    target: "/vous-etes/usagere/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/vous-etes/usagere"
+    file: content/fr/pages/vous-etes/usagere/_index.html
+  path: "/pages/vous-etes"
+  file: content/fr/pages/vous-etes/_index.html
 - title: Communs
   target: "/organisations/categories/nature/commun/"
   kind: url
   new_tab: false
   children: []
+- title: Bienfaiteur·ice
+  target: "/vous-etes/bienfaiteurice/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/vous-etes/bienfaiteurice"
+  file: content/fr/pages/vous-etes/bienfaiteurice/_index.html
 
