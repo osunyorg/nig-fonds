@@ -9,7 +9,7 @@ items:
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Communs
-  target: "/communs/"
+  target: "/"
   kind: page
   new_tab: false
   children: []
