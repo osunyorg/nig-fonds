@@ -8,6 +8,13 @@ items:
   children: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
+- title: Missions
+  target: "/missions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/missions"
+  file: content/fr/pages/missions/_index.html
 - title: Communs
   target: "/organisations/categories/nature/commun/"
   kind: url
