@@ -2,71 +2,97 @@
 title: Menu principal
 items:
 - title: À propos
+  slug: a-propos
   target: "/a-propos/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Missions
+  slug: missions
   target: "/missions/"
   kind: page
   new_tab: false
   children:
   - title: Sanctuariser
+    slug: sanctuariser
     target: "/missions/sanctuariser/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/missions/sanctuariser"
     file: content/fr/pages/missions/sanctuariser/_index.html
   - title: Opérer
+    slug: operer
     target: "/missions/operer/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/missions/operer"
     file: content/fr/pages/missions/operer/_index.html
   - title: Pérenniser
+    slug: perenniser
     target: "/missions/perenniser/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/missions/perenniser"
     file: content/fr/pages/missions/perenniser/_index.html
+  descendants_targets:
+  - "/missions/operer/"
+  - "/missions/perenniser/"
+  - "/missions/sanctuariser/"
   path: "/pages/missions"
   file: content/fr/pages/missions/_index.html
 - title: Vous êtes...
+  slug: vous-etes
   target: "/vous-etes/"
   kind: page
   new_tab: false
   children:
   - title: Commoneur·euse
+    slug: commoneur-euse
     target: "/vous-etes/commoneureuse/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vous-etes/commoneureuse"
     file: content/fr/pages/vous-etes/commoneureuse/_index.html
   - title: Usagē·r·e
+    slug: usage-r-e
     target: "/vous-etes/usagere/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vous-etes/usagere"
     file: content/fr/pages/vous-etes/usagere/_index.html
   - title: Bienfaiteur·ice
+    slug: bienfaiteur-ice
     target: "/vous-etes/bienfaiteurice/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vous-etes/bienfaiteurice"
     file: content/fr/pages/vous-etes/bienfaiteurice/_index.html
+  descendants_targets:
+  - "/vous-etes/bienfaiteurice/"
+  - "/vous-etes/commoneureuse/"
+  - "/vous-etes/usagere/"
   path: "/pages/vous-etes"
   file: content/fr/pages/vous-etes/_index.html
 - title: Communs
+  slug: communs
   target: "/organisations/categories/nature/commun/"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 
