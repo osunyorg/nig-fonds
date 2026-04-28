@@ -14,3 +14,15 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/communs/index.html"
+to = "/projets/"
+
+[[redirects]]
+from = "/vous-etes/beneficiaire/index.html"
+to = "/vous-etes/usagere/"
+
+[[redirects]]
+from = "/sanctuariser/index.html"
+to = "/missions/sanctuariser/"
+
